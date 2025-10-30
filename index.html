@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Permissions-Policy" content="clipboard-write=*">
+        <link rel="stylesheet" href="index.css" />
+        <title>Password Generator</title>
+    </head>
+    <body>
+        <h1>Generate a</h1>
+        <h1 id="h1g">random password</h1>
+        <p>Never use an insecure password again.</p>
+        <button onclick="generatePassword()">Generate Password</button>
+        <br />
+        <div id="hBar"></div>
+        <br />
+        <div id="passwordSpace">
+            <div id="spa1" class="spc" onclick="copy(this)"></div>
+            <div id="spa2" class="spc" onclick="copy(this)"></div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
